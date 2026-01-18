@@ -1,4 +1,4 @@
-# AMPIS - Aplikasi Manajemen Pembayaran Iuran Sampah
+# Aplikasi Manajemen Pembayaran Iuran Sampah
 
 Aplikasi desktop berbasis Python untuk mengelola iuran kebersihan/sampah warga secara digital, aman, dan efisien.
 
@@ -47,5 +47,6 @@ Proyek ini dibuat untuk memenuhi tugas Pratikum Pemrograman Visual.
 ---
 **Disusun oleh:** Aditya Ramadani (3A)
 **Universitas:** [Politeknik Negeri Pontianak]
+
 
 
