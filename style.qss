@@ -1,0 +1,105 @@
+/* ===== GLOBAL ===== */
+* {
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+}
+
+QWidget {
+    background-color: transparent; /* Allow parent backgrounds/gradients to show through */
+}
+
+QMainWindow, QDialog, #CustomerPage, #ManagePage {
+    background-color: #243447; /* Deep Premium Navy (Definitely not white) */
+}
+
+/* Update labels on management pages to be white/readable */
+#CustomerPage QLabel, #ManagePage QLabel {
+    color: white;
+}
+
+/* ===== TABLE ===== */
+QTableWidget {
+    background-color: #FFFFFF;
+    gridline-color: #DDE2E6;
+    border: 1px solid #DDE2E6;
+    border-radius: 10px;
+    selection-background-color: #16A085;
+}
+
+QHeaderView::section {
+    background-color: #F8F9FA;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    color: #2C3E50;
+    border-bottom: 2px solid #16A085;
+}
+
+/* ===== BUTTONS ===== */
+QPushButton {
+    background-color: #16A085;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+QPushButton:hover {
+    background-color: #1ABC9C;
+}
+
+QPushButton#ExitBtn {
+    background-color: #C0392B; /* Professional Dark Red */
+}
+
+QPushButton#ExitBtn:hover {
+    background-color: #E74C3C; /* Brighter Red */
+}
+
+QPushButton#KembaliBtn {
+    background-color: #34495E;
+}
+
+/* ===== LANDING & LOGIN (DARK THEME) ===== */
+#LandingWidget, #LoginWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #0F2027, stop:0.5 #203A43, stop:1 #2C5364);
+}
+
+#LandingWidget QLabel, #LoginWindow QLabel {
+    color: #F1C40F; /* Premium Gold for Title Text */
+    background: transparent;
+}
+
+
+/* ===== PIN INPUT ===== */
+#LoginWindow QLineEdit {
+    background-color: #FFFFFF;
+    border: 3px solid #F1C40F; /* Gold border to match theme */
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1A1A1A; /* Near black for maximum contrast */
+    margin: 10px;
+}
+
+
+/* ===== TABS (Pelanggan) ===== */
+QTabWidget::pane {
+    border: 1px solid #DDE2E6;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+QTabBar::tab {
+    padding: 12px 25px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+QTabBar::tab:selected {
+    background-color: #16A085;
+    color: white;
+}
