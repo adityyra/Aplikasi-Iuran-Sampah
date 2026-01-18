@@ -2,7 +2,7 @@
 
 Aplikasi desktop berbasis Python untuk mengelola iuran kebersihan/sampah warga secara digital, aman, dan efisien.
 
-![Preview](BimDer.ico) <!-- Ganti dengan screenshot jika ada -->
+![Preview](BimDer.ico)
 
 ## ✨ Fitur Utama
 - 🔐 **Login Keamanan**: Proteksi akses menggunakan PIN.
@@ -47,3 +47,4 @@ Proyek ini dibuat untuk memenuhi tugas Pratikum Pemrograman Visual.
 ---
 **Disusun oleh:** Aditya Ramadani (3A)
 **Universitas:** [Nama Universitas Anda]
+
