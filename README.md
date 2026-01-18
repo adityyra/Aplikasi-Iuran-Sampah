@@ -46,5 +46,6 @@ Proyek ini dibuat untuk memenuhi tugas Pratikum Pemrograman Visual.
 
 ---
 **Disusun oleh:** Aditya Ramadani (3A)
-**Universitas:** [Nama Universitas Anda]
+**Universitas:** [Politeknik Negeri Pontianak]
+
 
